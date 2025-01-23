@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment</title>
+</head>
+<body>
+
+    <h1>Student Enrollment</h1>
+
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="grade">Grade:</label>
+        <select id="grade" name="grade" required>
+            <option value="">Select Grade</option>
+            <option value="9">9th Grade</option>
+            <option value="10">10th Grade</option>
+            <option value="11">11th Grade</option>
+            <option value="12">12th Grade</option>
+        </select><br><br>
+
+        <input type="submit" value="Enroll">
+    </form>
+
+</body>
+</html>
